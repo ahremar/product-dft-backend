@@ -30,8 +30,8 @@ public class AssetEntryRequestFactory {
     private static final String ASSET_PROP_NAME_ASPECT_RELATIONSHIP = "Serialized Part - Submodel AssemblyPartRelationship";
     private static final String ASSET_PROP_DESCRIPTION = "...";
     private static final String ASSET_PROP_VERSION = "1.0.0";
-    private static final String NAME = "Backend Data Service - AAS Server";
-    private static final String TYPE = "AzureStorage";
+    private static final String NAME = "";
+    private static final String TYPE = "HttpData";
     @Value(value = "${dft.apiKeyHeader}")
     private String apiKeyHeader;
     @Value(value = "${dft.apiKey}")
